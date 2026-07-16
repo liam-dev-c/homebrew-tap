@@ -1,27 +1,27 @@
 class WhatWasNext < Formula
   desc "Terminal task manager and time tracker"
   homepage "https://github.com/liam-dev-c/what-was-next"
-  version "2026-07-16-1"
+  version "2026-07-16-2"
 
   on_macos do
     on_arm do
-      url "https://github.com/liam-dev-c/what-was-next/releases/download/2026-07-16-1/what-was-next-darwin-arm64"
-      sha256 "a342444b37e5b1f7856fe56b97d9993211454b1aa3edab8db3b2fbe246c8fe0a"
+      url "https://github.com/liam-dev-c/what-was-next/releases/download/2026-07-16-2/what-was-next-darwin-arm64"
+      sha256 "ca038c6da0c9c0d46a3b05c4be99360bc0f30ba6664595f9b2b38ba4e7d25c69"
     end
     on_intel do
-      url "https://github.com/liam-dev-c/what-was-next/releases/download/2026-07-16-1/what-was-next-darwin-amd64"
-      sha256 "b4f00a712d81e736b20df891f21fa1844c5708801f1239df7e986bde8f29eaaf"
+      url "https://github.com/liam-dev-c/what-was-next/releases/download/2026-07-16-2/what-was-next-darwin-amd64"
+      sha256 "abc204012fed0291d8734b2870a60644cef7c52d3633f475db8b148a9e6995b4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/liam-dev-c/what-was-next/releases/download/2026-07-16-1/what-was-next-linux-arm64"
-      sha256 "4dff95221d77cf23c8585b8228a36092ac033e505ac38e108d255709c936d6b7"
+      url "https://github.com/liam-dev-c/what-was-next/releases/download/2026-07-16-2/what-was-next-linux-arm64"
+      sha256 "4063da14d033bc1fbbb540033a2eeb9768235525c54e4ee70eb854f68c3c6e62"
     end
     on_intel do
-      url "https://github.com/liam-dev-c/what-was-next/releases/download/2026-07-16-1/what-was-next-linux-amd64"
-      sha256 "c76aebe06126909934e1875062a2b6d7beb49a38dd9658ad04ae6ebc27a942a1"
+      url "https://github.com/liam-dev-c/what-was-next/releases/download/2026-07-16-2/what-was-next-linux-amd64"
+      sha256 "bc82550e6fac153d97a052a3d1a6d04c790b358b9ff63f9e03c2b012b210e985"
     end
   end
 
